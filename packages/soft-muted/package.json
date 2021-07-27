@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/soft-muted/versions/0.3.0/tarball",
+  "_id": "soft-muted@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-1i3oTahIpW2GYK+8Af0gZObBQFv0s+89GNct/73SPv356/dO5UuXkf3jL8Z4+62cIcj/4ywVlPmNLGVZlOJ0jg==",
+  "_location": "/soft-muted",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/soft-muted/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/soft-muted/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/soft-muted/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/soft-muted/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/soft-muted/versions/0.3.0/tarball",
+  "_shasum": "8fef8fc308e25b281ac59b5da7cf81efbbd55c17",
+  "_spec": "https://www.atom.io/api/packages/soft-muted/versions/0.3.0/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021626-4690-1ecnbmi.nwwv",
+  "bugs": {
+    "url": "https://github.com/unforswearing/soft-muted-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A light theme with minimal muted colors. Goes down smooth and easy.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/unforswearing/soft-muted-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "soft-muted",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unforswearing/soft-muted-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.3.0"
+}

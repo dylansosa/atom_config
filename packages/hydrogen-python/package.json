@@ -1,0 +1,102 @@
+{
+  "_from": "https://www.atom.io/api/packages/hydrogen-python/versions/0.0.8/tarball",
+  "_id": "hydrogen-python@0.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-Mktc/34LXE8PfFG6RixVB7WqOm3HgBaT6fAdrj5W09vZMnS+dKospkUx0/yWigv8w6akU3mcJ95WD9UUvljoVQ==",
+  "_location": "/hydrogen-python",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/hydrogen-python/versions/0.0.8/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hydrogen-python/versions/0.0.8/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hydrogen-python/versions/0.0.8/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hydrogen-python/versions/0.0.8/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/hydrogen-python/versions/0.0.8/tarball",
+  "_shasum": "c4e256ed7528fc3c1dc4365cc9e2a0c72c9a3edc",
+  "_spec": "https://www.atom.io/api/packages/hydrogen-python/versions/0.0.8/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021627-9837-s72bx1.h90dd",
+  "bugs": {
+    "url": "https://github.com/nikitakit/hydrogen-python/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "expandCode": {
+      "title": "Extend Executable Code [experimental]",
+      "type": "boolean",
+      "default": "false",
+      "description": "When a line is executed without selection, hydrogen only passes on code up that is indented compared to the current line. In python that unfortunately does not always work, because some control structures (e.g. else) continue on the same indentation level. Enabling this setting expands the executed code beyond what hydrogen suggests on the basis of the indentation level. The statements which trigger such extension can be defined below. *Warning:* The hydrogen tick markers are unfortunately _not_ moved to the right location."
+    },
+    "expandCodeList": {
+      "title": "Code to Expand",
+      "type": "array",
+      "default": [
+        "else",
+        "elif",
+        "except",
+        "finally",
+        "\\}",
+        "\\]",
+        "\\)"
+      ],
+      "description": "If the above setting is enabled, this list will be passed to a regex. Any of these items in the list need to occur on the same intentation level as the first line. You may define your own custom elements to modify the code to your preferred behaviour. In the default setting, else, elif, except, finally, as well as all closing braces are expanded on."
+    },
+    "prependCodeList": {
+      "title": "Code to Expand Before the Execution",
+      "type": "array",
+      "default": [
+        "@"
+      ],
+      "description": "If the above setting is enabled, this list will be passed to a regex. Any of these items in the list need to occur on the same intentation level as the first line. You may define your own custom elements to modify the code to your preferred behaviour. In the default setting, the @ decorator is prepended."
+    }
+  },
+  "consumedServices": {
+    "hydrogen.provider": {
+      "versions": {
+        "^1.2.0": "consumeHydrogen"
+      }
+    }
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-table": "^6.7.6",
+    "strip-indent": "^2.0.0",
+    "uuid": "^3.0.1"
+  },
+  "deprecated": false,
+  "description": "Python language-specific extensions for hydrogen",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nikitakit/hydrogen-python#readme",
+  "keywords": [
+    "hydrogen",
+    "jupyter",
+    "ipython"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "hydrogen-python",
+  "package-deps": [
+    "hydrogen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitakit/hydrogen-python.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "version": "0.0.8"
+}

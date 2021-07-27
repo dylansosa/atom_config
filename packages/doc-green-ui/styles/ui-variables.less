@@ -1,0 +1,112 @@
+// Colors
+// Imported from the Doc Green syntax themes colors.less
+@very-light-gray: rgba(255,255,255,1);  // Plain text and numbers
+@light-gray: rgba(200,200,200,0.5);     // Comments
+@moss-green: rgba(19,132,32,0.5);       // Current line background in gutter
+@khaki-green: rgba(39,52,52,1);         // Gutter background
+@dark-forest-green: rgba(19,32,32,1);   // Editor background
+
+@cyan: #8abeb7;
+@brownish-red:  rgba(200,100,  0, 1);
+@dark-yellow:   rgba(246,203, 44, 1);
+@orange-yellow: rgba(255,200, 30, 1);
+@green:         rgba(100,180,100, 1);
+@red:           rgba(200, 90,100, 1);
+@orange: #de935f;
+@light-orange:  rgba(191,151,  8, 1);
+@beige:         rgba(255,200,200, 1);
+
+@sidebar-background:  rgba( 19, 32, 32, 1);
+@sidebar-highlight:   rgba( 20,200, 20, 1);
+@bottom-toolbar:      rgba( 19, 32, 32, 1);
+
+@text-color: #aaa;
+@text-color-subtle: #555;
+@text-color-highlight: #fff;
+@text-color-selected: @text-color-highlight;
+
+@text-color-info: #5293d8;
+@text-color-success: #2BDA77;
+@text-color-warning: #ff982d;
+@text-color-error: #c00;
+
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @text-color-success;
+@text-color-renamed: @text-color-info;
+@text-color-modified: @text-color-warning;
+@text-color-removed: @text-color-error;
+
+@background-color-info: #0098ff;
+@background-color-success: #17ca65;
+@background-color-warning: #ffaa2c;
+@background-color-error: #c00;
+@background-color-highlight: rgba(255, 255, 255, 0.07);
+@background-color-selected: #4182C4;
+
+@app-background-color: #333;
+
+@base-background-color: lighten(@tool-panel-background-color, 5%);
+@base-border-color: rgba(0, 0, 0, 0.5);
+
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: rgba(0, 0, 0, 0.5);
+
+@darkened-light-gray-border-color: darken(@light-gray, 60%);
+
+@input-background-color: @dark-forest-green;
+@input-border-color: @darkened-light-gray-border-color;
+
+@tool-panel-background-color: @khaki-green;//@dark-forest-green;
+@tool-panel-border-color: @darkened-light-gray-border-color;
+
+@inset-panel-background-color:#161719;
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: #43484d;
+@panel-heading-border-color: fadein(@base-border-color, 10%);
+
+@overlay-background-color: #202123;
+@overlay-border-color: @background-color-highlight;
+
+@button-background-color: #40504d;
+@button-background-color-hover: lighten(@button-background-color, 5%);
+@button-background-color-selected: #5c6064;
+@button-border-color: @base-border-color;
+
+@tab-bar-background-color: @khaki-green;
+@tab-bar-border-color: darken(@tab-background-color-active, 10%);
+@tab-background-color: #333;
+@tab-background-color-active: @khaki-green;
+@tab-border-color: #484848;
+
+@tree-view-background-color: @khaki-green;
+@tree-view-border-color: @tool-panel-border-color;
+@tree-view-highlight: @sidebar-highlight;
+
+@scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
+@scrollbar-color: rgba(92, 92, 92, 0.5);
+
+@ui-site-color-1: @background-color-success; // green
+@ui-site-color-2: @background-color-info; // blue
+@ui-site-color-3: @background-color-warning; // orange
+@ui-site-color-4: #db2ff4; // purple
+@ui-site-color-5: #f5e11d; // yellow
+
+// Sizes
+
+@font-size: 11px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 6px;
+@component-icon-padding: 3px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 4px;
+
+@tab-height: 23px;
+
+// Other
+
+@font-family: 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;

@@ -1,0 +1,51 @@
+{
+  "_from": "https://www.atom.io/api/packages/behave-theme/versions/1.7.0/tarball",
+  "_id": "behave-theme@1.7.0",
+  "_inBundle": false,
+  "_integrity": "sha512-8If0E7+LqJWq1THXwRfEekxVF2whmTsiN+J/sjRBAdT1ZxhrxTzjTpJXTZMsuf8ebQak4F1dUcZAcysFJlN5RA==",
+  "_location": "/behave-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/behave-theme/versions/1.7.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/behave-theme/versions/1.7.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/behave-theme/versions/1.7.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/behave-theme/versions/1.7.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/behave-theme/versions/1.7.0/tarball",
+  "_shasum": "2c6b54eba83f568dddc56416bd93afb6ad952575",
+  "_spec": "https://www.atom.io/api/packages/behave-theme/versions/1.7.0/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-202075-20072-75ozlm.375qq",
+  "bugs": {
+    "url": "https://github.com/carlo/behave-theme/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Carlo Zottmann",
+      "email": "carlo@zottmann.org"
+    },
+    {
+      "name": "Christian Petersen",
+      "email": "chrs@cbp.io"
+    }
+  ],
+  "deprecated": false,
+  "description": "An easy-on-the-eyes dark syntax theme. A port of Christian Petersen' Textmate Behave theme.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/carlo/behave-theme#readme",
+  "license": "WTFPL",
+  "name": "behave-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlo/behave-theme.git"
+  },
+  "theme": "syntax",
+  "version": "1.7.0"
+}

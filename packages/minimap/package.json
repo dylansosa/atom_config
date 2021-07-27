@@ -1,0 +1,131 @@
+{
+  "_from": "https://www.atom.io/api/packages/minimap/versions/4.40.0/tarball",
+  "_id": "minimap@4.40.0",
+  "_inBundle": false,
+  "_integrity": "sha512-X6YiOzgUq2MuyE4MvxOYMco9SG7MYzCDFufRnQATJKJN6yMxTpCBInOKUTcMTj8eR9RXFGUMma90iM4Jvkb7JA==",
+  "_location": "/minimap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/minimap/versions/4.40.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/minimap/versions/4.40.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/minimap/versions/4.40.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/minimap/versions/4.40.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/minimap/versions/4.40.0/tarball",
+  "_shasum": "70be7d0260e4c776bc42c5c6723898efa15cbe66",
+  "_spec": "https://www.atom.io/api/packages/minimap/versions/4.40.0/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021627-10666-1q4nqrf.rzq1",
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "author": {
+    "name": "Fangdun Cai",
+    "email": "cfddream@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/atom-minimap/minimap/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Fangdun Cai",
+      "email": "cfddream@gmail.com"
+    },
+    {
+      "name": "Cédric Néhémie",
+      "email": "cedric.nehemie@gmail.com"
+    },
+    {
+      "name": "Amin Yahyaabadi",
+      "email": "aminyahyaabadi74@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "atom-ide-base": "^3.2.0",
+    "atom-utils-plus": "^0.11.0",
+    "delegato": "^1.0.0",
+    "element-resize-detector": "^1.2.3",
+    "fs-plus": "^3.1.1",
+    "mixto": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "A preview of the full source code.",
+  "devDependencies": {
+    "@types/atom": "^1.40.10",
+    "@types/jasmine": "3.7.7",
+    "build-commit": "^0.1.4",
+    "cross-env": "^7.0.3",
+    "esdoc": "^1.1.0",
+    "esdoc-es7-plugin": "^0.0.3",
+    "eslint": "^7.29.0",
+    "eslint-config-atomic": "^1.16.1",
+    "jasmine-expect": "^5.0.0",
+    "npm-check-updates": "latest",
+    "parcel": "2.0.0-nightly.760",
+    "prettier-config-atomic": "^2.0.5",
+    "shx": "^0.3.3",
+    "terser-config-atomic": "^0.1.1",
+    "underscore-plus": "^1.7.0"
+  },
+  "engines": {
+    "atom": ">=1.52.0",
+    "electron": ">=6.0.0"
+  },
+  "homepage": "https://github.com/atom-minimap/minimap#readme",
+  "keywords": [
+    "minimap",
+    "overview"
+  ],
+  "license": "MIT",
+  "main": "./dist/main.js",
+  "name": "minimap",
+  "prettier": "prettier-config-atomic",
+  "providedServices": {
+    "minimap": {
+      "description": "Exposes the minimap API to other packages",
+      "versions": {
+        "1.0.0": "provideMinimapServiceV1"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-minimap/minimap.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production parcel build --target main ./lib/main.js --no-scope-hoist",
+    "build-commit": "npm run clean && build-commit -o dist",
+    "build.test": "npm run clean && cross-env NODE_ENV=test parcel build --target main ./lib/main.js --no-scope-hoist",
+    "bump": "ncu -u",
+    "clean": "shx rm -rf dist .parcel-cache",
+    "dev": "cross-env NODE_ENV=development parcel watch --target main ./lib/main.js --no-scope-hoist",
+    "esdoc": "esdoc -c esdoc.json",
+    "format": "prettier --write .",
+    "lint": "eslint . --fix",
+    "prepare": "npm run build",
+    "test": "atom --test spec",
+    "test.format": "prettier . --check",
+    "test.lint": "eslint ."
+  },
+  "targets": {
+    "main": {
+      "context": "electron-renderer",
+      "includeNodeModules": {
+        "atom": false,
+        "electron": false,
+        "fs-plus": false
+      },
+      "outputFormat": "commonjs",
+      "isLibrary": true
+    }
+  },
+  "version": "4.40.0",
+  "viewProviders": [
+    "minimapViewProvider"
+  ]
+}

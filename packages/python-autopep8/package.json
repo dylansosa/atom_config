@@ -1,0 +1,44 @@
+{
+  "_from": "https://www.atom.io/api/packages/python-autopep8/versions/0.1.3/tarball",
+  "_id": "python-autopep8@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-8++wlV9M/Gbq0YWDQvOyJvHZEmIiDPchbn9b6N314i/5FTrN3MSYnqV0YrQUBK0hEI7QZbsP3aqhSqL9QGweNg==",
+  "_location": "/python-autopep8",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/python-autopep8/versions/0.1.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/python-autopep8/versions/0.1.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/python-autopep8/versions/0.1.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/python-autopep8/versions/0.1.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/python-autopep8/versions/0.1.3/tarball",
+  "_shasum": "1bbd43538f9bbbfeef5134cae56a0e622067b5df",
+  "_spec": "https://www.atom.io/api/packages/python-autopep8/versions/0.1.3/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021627-1361-don6u5.6anqj",
+  "bugs": {
+    "url": "https://github.com/markbaas/atom-python-autopep8/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "deprecated": false,
+  "description": "Format python code using autopep8",
+  "engines": {
+    "atom": ">=0.185.0 <2.0.0"
+  },
+  "homepage": "https://github.com/markbaas/atom-python-autopep8#readme",
+  "license": "MIT",
+  "main": "./lib/index",
+  "name": "python-autopep8",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markbaas/atom-python-autopep8.git"
+  },
+  "version": "0.1.3"
+}

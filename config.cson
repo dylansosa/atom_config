@@ -1,0 +1,33 @@
+"*":
+  Hydrogen: {}
+  core:
+    disabledPackages: [
+      "teletype"
+      "autocomplete-python"
+    ]
+    packagesWithKeymapsDisabled: [
+      "script"
+      "hydrogen-run"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "isotope-ui"
+      "behave-theme"
+    ]
+  "exception-reporting":
+    userId: "0fc3d297-b1b7-4167-98b0-6293e5532412"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  script:
+    enableExecTime: false
+  welcome:
+    showOnStartup: false
+".breakpoints.hydrogen":
+  editor:
+    showInvisibles: false
+    softWrap: false
+    softWrapAtPreferredLineLength: true

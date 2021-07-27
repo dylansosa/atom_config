@@ -1,0 +1,91 @@
+{
+  "_from": "https://www.atom.io/api/packages/autocomplete-python/versions/1.17.0/tarball",
+  "_id": "autocomplete-python@1.17.0",
+  "_inBundle": false,
+  "_integrity": "sha512-miRz6bICELLlO7DoI8EdwcCOx6AdxZLBp7NYldr8Wv6hKC6ayrroQFSyvjpJB8uGSJeIiY+SFtpY3fWEC24khg==",
+  "_location": "/autocomplete-python",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autocomplete-python/versions/1.17.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autocomplete-python/versions/1.17.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autocomplete-python/versions/1.17.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autocomplete-python/versions/1.17.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autocomplete-python/versions/1.17.0/tarball",
+  "_shasum": "2ddae2c17c04f46ebd47bf1b6a2d964d03cf6fda",
+  "_spec": "https://www.atom.io/api/packages/autocomplete-python/versions/1.17.0/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021627-1305-1w8c7vc.0fr3",
+  "bugs": {
+    "url": "https://github.com/autocomplete-python/autocomplete-python/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "snippets": {
+      "versions": {
+        "0.1.0": "consumeSnippets"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "contributors": [
+    {
+      "name": "Dmitry Sadovnychyi",
+      "email": "autocomplete-python@dmit.ro"
+    },
+    {
+      "name": "Daniel Hung",
+      "email": "daniel@kite.com"
+    }
+  ],
+  "dependencies": {
+    "atom-slick": "^2.0.0",
+    "atom-space-pen-views": "~2.1.0",
+    "fuzzaldrin-plus": "^0.3.1",
+    "kite-installer": "=3.15.0",
+    "mixpanel": "^0.5.0",
+    "selector-kit": "^0.1",
+    "space-pen": "^5.1.2",
+    "underscore": "^1.8.3"
+  },
+  "deprecated": false,
+  "description": "Python completions for packages, variables, methods, functions, with their arguments. Powered by your choice of Jedi or Kite.",
+  "engines": {
+    "atom": ">=0.194.0 <2.0.0"
+  },
+  "homepage": "https://github.com/autocomplete-python/autocomplete-python#readme",
+  "keywords": [
+    "python",
+    "autocomplete",
+    "jedi"
+  ],
+  "license": "GPL",
+  "main": "./lib/main",
+  "name": "autocomplete-python",
+  "package-dependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    },
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getHyperclickProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/autocomplete-python/autocomplete-python.git"
+  },
+  "version": "1.17.0"
+}

@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/doc-green-syntax/versions/1.1.0/tarball",
+  "_id": "doc-green-syntax@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Wd+7mIJ0nKD9PgwC5ADdOFaiixKob6n/oTCHxEiOXWz/YbQVu9Wev8wZUPkme//KdF3cjgcw5P/lerHFBmQijQ==",
+  "_location": "/doc-green-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/doc-green-syntax/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/doc-green-syntax/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/doc-green-syntax/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/doc-green-syntax/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/doc-green-syntax/versions/1.1.0/tarball",
+  "_shasum": "b2b92369476fe0881aa20c5c6804375364f78f9e",
+  "_spec": "https://www.atom.io/api/packages/doc-green-syntax/versions/1.1.0/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021626-4476-1bw3ohp.5bzl",
+  "bugs": {
+    "url": "https://github.com/pkrll/doc-green-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Companion syntax theme for the Doc Green UI.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/pkrll/doc-green-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "doc-green-syntax",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkrll/doc-green-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/muted/versions/0.1.4/tarball",
+  "_id": "muted@0.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-GI8b/45aoxOXDcMbGpsC1SEaKsZpV7Fp0aJnU/xBu5UigUKv95tM+nNKU0Sh1eTrn0pg75Ywt2URTp8A5UBtjQ==",
+  "_location": "/muted",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/muted/versions/0.1.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/muted/versions/0.1.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/muted/versions/0.1.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/muted/versions/0.1.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/muted/versions/0.1.4/tarball",
+  "_shasum": "37208cc887343250931c8adcec0206efcc3cdc9a",
+  "_spec": "https://www.atom.io/api/packages/muted/versions/0.1.4/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021626-4665-a7g6i7.qb40f",
+  "bugs": {
+    "url": "https://github.com/caffo/muted/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Muted white theme for atom",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/caffo/muted#readme",
+  "license": "MIT",
+  "name": "muted",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caffo/muted.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.4"
+}

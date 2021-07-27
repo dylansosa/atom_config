@@ -1,0 +1,44 @@
+{
+  "_from": "https://www.atom.io/api/packages/hydrogen-run/versions/0.1.13/tarball",
+  "_id": "hydrogen-run@0.1.13",
+  "_inBundle": false,
+  "_integrity": "sha512-HWm5oNI4bG2DIT+L0J1d1aYBo1T9Fm/POokh80TVmORWY/vtZo7xsFrnFzqhJgwPWEFeR5D3YtRwRKPCQlvzZg==",
+  "_location": "/hydrogen-run",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/hydrogen-run/versions/0.1.13/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hydrogen-run/versions/0.1.13/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hydrogen-run/versions/0.1.13/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hydrogen-run/versions/0.1.13/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/hydrogen-run/versions/0.1.13/tarball",
+  "_shasum": "e5c9c59fc88e3224f8a0880121973241fcff4054",
+  "_spec": "https://www.atom.io/api/packages/hydrogen-run/versions/0.1.13/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021627-10704-afelap.7drla",
+  "bugs": {
+    "url": "https://github.com/bacadra/atom-hydrogen-run/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The package extends the available methods to computing with hydrogen",
+  "homepage": "https://github.com/bacadra/atom-hydrogen-run",
+  "keywords": [
+    "bacadra",
+    "hydrogen",
+    "python",
+    "run"
+  ],
+  "main": "./lib/main",
+  "name": "hydrogen-run",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacadra/atom-hydrogen-run.git"
+  },
+  "url": "https://github.com/bacadra/atom-hydrogen-run",
+  "version": "0.1.13"
+}

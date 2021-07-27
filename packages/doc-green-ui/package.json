@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/doc-green-ui/versions/1.1.0/tarball",
+  "_id": "doc-green-ui@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-H8nJFZjRpHwMSdLI0gKABx7LPAOKkquCQoz2gN5/rTv39UeJlkbtElgZPGU1/av4wLQTLIPZb2I1BN/A25QQOQ==",
+  "_location": "/doc-green-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/doc-green-ui/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/doc-green-ui/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/doc-green-ui/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/doc-green-ui/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/doc-green-ui/versions/1.1.0/tarball",
+  "_shasum": "175612045c0bb57b3c63384f597df7cf165ec84e",
+  "_spec": "https://www.atom.io/api/packages/doc-green-ui/versions/1.1.0/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021626-4437-v2bmo5.es83k",
+  "bugs": {
+    "url": "https://github.com/pkrll/doc-green-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dark and green heavy UI theme for Atom",
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/pkrll/doc-green-ui#readme",
+  "license": "MIT",
+  "name": "doc-green-ui",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkrll/doc-green-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.1.0"
+}

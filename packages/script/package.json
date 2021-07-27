@@ -1,0 +1,425 @@
+{
+  "_from": "https://www.atom.io/api/packages/script/versions/3.32.2/tarball",
+  "_id": "script@3.32.2",
+  "_inBundle": false,
+  "_integrity": "sha512-4MNMlHuf9OEHXzSZBlnA8iBMFFsifjYzdnOQr3OvuirlvTAfxSiLmd6hbBe8tDACaC0juCePgfxq4+X6H5YA+g==",
+  "_location": "/script",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/script/versions/3.32.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/script/versions/3.32.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/script/versions/3.32.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/script/versions/3.32.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/script/versions/3.32.2/tarball",
+  "_shasum": "8c967600891d32b077164055cd242f0f2f8a5d33",
+  "_spec": "https://www.atom.io/api/packages/script/versions/3.32.2/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021626-4274-vrju9e.kx7c",
+  "activationCommands": {
+    "atom-text-editor": [
+      "script:run",
+      "script:run-by-line-number",
+      "script:run-options",
+      "script:run-with-profile"
+    ]
+  },
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "author": {
+    "name": "Kyle Kelley",
+    "email": "rgbkrk@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/atom-ide-community/atom-script/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kyle Kelley",
+      "email": "rgbkrk@gmail.com"
+    },
+    {
+      "name": "Amin Yahyaabadi",
+      "email": "aminyahyaabadi74@gmail.com"
+    },
+    {
+      "name": "GeneLocklin",
+      "email": "gene.locklin@gmail.com"
+    },
+    {
+      "name": "Robin Bolton",
+      "email": "robin@robinbolton.com"
+    },
+    {
+      "name": "rpavlick",
+      "email": "ryan.pavlick@gmail.com"
+    },
+    {
+      "name": "Idean Labib",
+      "email": "idean1.labib@gmail.com"
+    },
+    {
+      "name": "Christopher Armstrong",
+      "email": "radix@twistedmatrix.com"
+    },
+    {
+      "name": "Victor",
+      "email": "foo-bar-baz-qux@users.noreply.github.com"
+    },
+    {
+      "name": "Calyhre",
+      "email": "calyhre@gmail.com"
+    },
+    {
+      "name": "Kevin Busby",
+      "email": "kevinb@earthrid.com"
+    },
+    {
+      "name": "Ahmad M. Zawawi",
+      "email": "ahmad.zawawi@gmail.com"
+    },
+    {
+      "name": "Maxime Loliée",
+      "email": "maxime@siliadev.com"
+    },
+    {
+      "name": "Jonathan Channon",
+      "email": "jonathan.channon@gmail.com"
+    },
+    {
+      "name": "kami",
+      "email": "kami30k@gmail.com"
+    },
+    {
+      "name": "Erran Carey",
+      "email": "me@errancarey.com"
+    },
+    {
+      "name": "Florian Lefèvre",
+      "email": "zedentox@gmail.com"
+    },
+    {
+      "name": "Dustin Blackman",
+      "email": "dustinblackman@users.noreply.github.com"
+    },
+    {
+      "name": "elclanrs",
+      "email": "cedric.ruiz@spacirdesigns.com"
+    },
+    {
+      "name": "cdingpeng",
+      "email": "cdingpeng@glitchsoft.com"
+    },
+    {
+      "name": "gerane",
+      "email": "gerane@gmail.com"
+    },
+    {
+      "name": "Jake Sankey",
+      "email": "jakesankey@icloud.com"
+    },
+    {
+      "name": "Daniel Bayley",
+      "email": "daniel.bayley@me.com"
+    },
+    {
+      "name": "rgbkrk",
+      "email": "rgbkrk@gmail.com"
+    },
+    {
+      "name": "Otto Robba",
+      "email": "OttoRobba@users.noreply.github.com"
+    },
+    {
+      "name": "Hikaru Ojima",
+      "email": "hikaru.ojima@mixi.co.jp"
+    },
+    {
+      "name": "Rafael Belvederese",
+      "email": "rafael@blvz.im"
+    },
+    {
+      "name": "Will Sahatdjian",
+      "email": "ws@kindwave.com"
+    },
+    {
+      "name": "Lance Batson",
+      "email": "lbatson@my.apsu.edu"
+    },
+    {
+      "name": "Ash Wilson",
+      "email": "smashwilson@gmail.com"
+    },
+    {
+      "name": "Pedro Rodriguez",
+      "email": "ski.rodriguez@gmail.com"
+    },
+    {
+      "name": "Hans Rødtang",
+      "email": "hansrodtang@gmail.com"
+    },
+    {
+      "name": "Yeonghoon Park",
+      "email": "sola92@gmail.com"
+    },
+    {
+      "name": "Johan Bruning",
+      "email": "johan@taquito.nl"
+    },
+    {
+      "name": "Andy Hayden",
+      "email": "andyhayden1@gmail.com"
+    },
+    {
+      "name": "Alexey Slaykovsky",
+      "email": "alexey@macbook.dlink"
+    },
+    {
+      "name": "Christian Kjaer Laustsen",
+      "email": "christianlaustsen@gmail.com"
+    },
+    {
+      "name": "cormullion",
+      "email": "cormullion@mac.com"
+    },
+    {
+      "name": "jbtule",
+      "email": "jay+code@tuley.name"
+    },
+    {
+      "name": "Ivan Storck",
+      "email": "ivanoats@gmail.com"
+    },
+    {
+      "name": "Ciaran Downey",
+      "email": "me@ciarand.me"
+    },
+    {
+      "name": "bryanweatherly",
+      "email": "bryanweatherly@gmail.com"
+    },
+    {
+      "name": "Rnhmjoj",
+      "email": "micheleguerinirocco@me.com"
+    },
+    {
+      "name": "Calvin Bottoms",
+      "email": "calvin.bottoms@gmail.com"
+    },
+    {
+      "name": "Marek Piechut",
+      "email": "marek.piechut@gmail.com"
+    },
+    {
+      "name": "Rodolfo Carvalho",
+      "email": "rhcarvalho@gmail.com"
+    },
+    {
+      "name": "Sergey Koshelev",
+      "email": "xih@yandex.ru"
+    },
+    {
+      "name": "Tomasz Grodzki",
+      "email": "dev@plain.pl"
+    },
+    {
+      "name": "fazo96",
+      "email": "fazius2009@gmail.com"
+    },
+    {
+      "name": "morinmorin",
+      "email": "mimomorin@gmail.com"
+    },
+    {
+      "name": "Mirek Rusin",
+      "email": "mirek@me.com"
+    },
+    {
+      "name": "ThiconZ",
+      "email": "ThiconZ@users.noreply.github.com"
+    },
+    {
+      "name": "Daniel Chatfield",
+      "email": "chatfielddaniel@gmail.com"
+    },
+    {
+      "name": "Lucas Magno",
+      "email": "lmagno94@gmail.com"
+    },
+    {
+      "name": "benjamin",
+      "email": "benjamin.nave@gmail.com"
+    },
+    {
+      "name": "liamdawson",
+      "email": "dawmail333@gmail.com"
+    },
+    {
+      "name": "Liam Dawson",
+      "email": "liam@liamdawson.me"
+    },
+    {
+      "name": "Ilya Palkin",
+      "email": "ilya1984@ukr.net"
+    },
+    {
+      "name": "Sagi",
+      "email": "saginedunkanal@users.noreply.github.com"
+    },
+    {
+      "name": "Michael Pardo",
+      "email": "kensuke155@gmail.com"
+    },
+    {
+      "name": "Samuel Marks",
+      "email": "samuelmarks@gmail.com"
+    },
+    {
+      "name": "aki",
+      "email": "lala.akira@gmail.com"
+    },
+    {
+      "name": "Marc Harter",
+      "email": "wavded@gmail.com"
+    },
+    {
+      "name": "wflaschka",
+      "email": "wflaschka@gmail.com"
+    },
+    {
+      "name": "Jarmo Kivekas",
+      "email": "jarmo.kivekas@nixu.com"
+    },
+    {
+      "name": "Jan T. Sott",
+      "email": "git@idleberg.com"
+    },
+    {
+      "name": "Vladimir Shvets",
+      "email": "stormherz@gmail.com"
+    },
+    {
+      "name": "Nikita Gryzlov",
+      "email": "nixel2007@gmail.com"
+    },
+    {
+      "name": "A Manning",
+      "email": "449a6a9b@opayq.com"
+    },
+    {
+      "name": "Bruno Durán",
+      "email": "bruno.duran.rey@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "ansi-to-html": "^0.6.14",
+    "atom-message-panel": "1.3.1",
+    "atom-space-pen-views-plus": "^3.0.4",
+    "coffeescript": "^2",
+    "rimraf": "^3.0.2",
+    "strip-ansi": "<7.0.0",
+    "temp": "^0.9.4",
+    "underscore": "^1.13.1",
+    "uuid": "^8.3.2"
+  },
+  "deprecated": false,
+  "description": "Run code in Atom!",
+  "devDependencies": {
+    "@types/atom": "^1.40.10",
+    "@types/jasmine": "^3.7.2",
+    "@types/node": "^15.0.2",
+    "@types/rimraf": "^3.0.0",
+    "@types/temp": "^0.9.0",
+    "@types/underscore": "^1.11.2",
+    "@types/uuid": "^8.3.0",
+    "eslint-config-atomic": "^1.14.4",
+    "prettier-config-atomic": "^2.0.4"
+  },
+  "engines": {
+    "atom": ">=0.174.0"
+  },
+  "homepage": "https://github.com/atom-ide-community/atom-script#readme",
+  "keywords": [
+    "script",
+    "runner",
+    "Bash",
+    "Behat Feature",
+    "Clojure",
+    "Coffeescript",
+    "CoffeeScript (Literate)",
+    "Cucumber (Gherkin)",
+    "Elixir",
+    "Erlang",
+    "F#",
+    "FSharp",
+    "F*",
+    "FStar",
+    "Go",
+    "Groovy",
+    "Haskell",
+    "Javascript",
+    "Julia",
+    "LaTeX",
+    "Lua",
+    "mongoDB",
+    "newLISP",
+    "Perl",
+    "PHP",
+    "PowerShell",
+    "Python",
+    "Raku",
+    "RSpec",
+    "Ruby",
+    "Ruby on Rails",
+    "Scala",
+    "Swift",
+    "run",
+    "Applescript",
+    "code",
+    "LAMMPS"
+  ],
+  "license": "Apache-2.0",
+  "main": "./lib/script",
+  "name": "script",
+  "optionalDependencies": {
+    "coffeescript": "^2"
+  },
+  "prettier": "prettier-config-atomic",
+  "private": false,
+  "providedServices": {
+    "default-script-runtime": {
+      "description": "Provides default runtime that's configurable through Atom editor",
+      "versions": {
+        "0.1.0": "provideDefaultRuntime"
+      }
+    },
+    "provide-blank-runtime": {
+      "description": "Provides a Runtime instance that's intended to be more programatically configurable",
+      "versions": {
+        "0.1.0": "provideBlankRuntime"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-ide-community/atom-script.git"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . --fix",
+    "test": "atom --test spec",
+    "test.format": "prettier . --check",
+    "test.lint": "eslint ."
+  },
+  "version": "3.32.2"
+}

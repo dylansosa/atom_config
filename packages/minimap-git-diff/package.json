@@ -1,0 +1,79 @@
+{
+  "_from": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.6/tarball",
+  "_id": "minimap-git-diff@4.3.6",
+  "_inBundle": false,
+  "_integrity": "sha512-BpGWPy3CL58i/sIBqsBGsoM20GbYoZqE5wYCg34fvZDYJGd/IEm3Y63dyO3Z9uub7EHdodkxts5W10GxLEY7zw==",
+  "_location": "/minimap-git-diff",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.6/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.6/tarball",
+  "_shasum": "6e1d891255e9110e3e511bdefb70fdf55b97a114",
+  "_spec": "https://www.atom.io/api/packages/minimap-git-diff/versions/4.3.6/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021627-1380-hlqbbc.q057l",
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "atomTestRunner": "./spec/runner.js",
+  "author": {
+    "name": "Cédric Néhémie",
+    "email": "cedric.nehemie@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/atom-minimap/minimap-git-diff/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^7.1.0"
+  },
+  "deprecated": false,
+  "description": "A minimap binding for the git diff package",
+  "devDependencies": {
+    "@semantic-release/apm-config": "^8.0.0",
+    "atom-jasmine3-test-runner": "^5.1.8",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "semantic-release": "^17.3.1"
+  },
+  "engines": {
+    "atom": ">=1.20.0"
+  },
+  "homepage": "https://github.com/atom-minimap/minimap-git-diff#readme",
+  "license": "MIT",
+  "main": "./lib/minimap-git-diff",
+  "name": "minimap-git-diff",
+  "package-deps": [
+    {
+      "name": "minimap"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-minimap/minimap-git-diff.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "atom --test spec"
+  },
+  "version": "4.3.6"
+}

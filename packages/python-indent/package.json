@@ -1,0 +1,67 @@
+{
+  "_from": "https://www.atom.io/api/packages/python-indent/versions/1.2.6/tarball",
+  "_id": "python-indent@1.2.6",
+  "_inBundle": false,
+  "_integrity": "sha512-5CO0TqP4n1SzpibNrUb0w7VuKJ8bg20TpO2g7PIBzl+zCXW6mgB2GUdSZB+2/VPaR76Vp8sntBtZyxxKKVXnlA==",
+  "_location": "/python-indent",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/python-indent/versions/1.2.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/python-indent/versions/1.2.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/python-indent/versions/1.2.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/python-indent/versions/1.2.6/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/python-indent/versions/1.2.6/tarball",
+  "_shasum": "2b38b149201d30f50402dbe62291724349e88463",
+  "_spec": "https://www.atom.io/api/packages/python-indent/versions/1.2.6/tarball",
+  "_where": "/private/var/folders/cw/bsb66kr15cn_vns2r5k8d8kr0000gr/T/apm-install-dir-2021627-7885-1g9p97b.pbgp",
+  "author": {
+    "name": "Dustin Speckhals",
+    "email": "dustin1114@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/DSpeckhals/python-indent/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kevin Rose",
+      "email": "<kevin+gh@maypark.com"
+    }
+  ],
+  "dependencies": {
+    "python-indent-parser": "0.1.4"
+  },
+  "deprecated": false,
+  "description": "Python PEP8 auto-indentation",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "engines": {
+    "atom": ">=1.22.0 <2.0.0"
+  },
+  "homepage": "https://github.com/DSpeckhals/python-indent#readme",
+  "keywords": [
+    "python",
+    "indent",
+    "PEP8"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "python-indent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSpeckhals/python-indent.git"
+  },
+  "version": "1.2.6"
+}

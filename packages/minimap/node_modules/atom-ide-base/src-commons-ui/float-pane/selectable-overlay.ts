@@ -1,0 +1,94 @@
+import type { TextEditor, TextEditorComponent } from "atom"
+
+/**
+ * Makes the text selectable and copyable
+ *
+ * Note: you can directly add `user-select: text` (and `pointer-events: all`) in CSS for better performance
+ */
+export function makeOverlaySelectable(editor: TextEditor, overlayElement: HTMLElement, focusFix = true) {
+  // allow the browser to handle selecting
+  overlayElement.setAttribute("tabindex", "-1")
+
+  // make it selectable
+  if (!overlayElement.style.userSelect || overlayElement.style.userSelect === "none") {
+    overlayElement.style.userSelect = "text"
+  }
+
+  if (focusFix) {
+    // fix overlay focus issue
+    overlayFocusFix(editor, overlayElement)
+  }
+
+  // add copy keybindings
+  overlayElement.classList.add("native-key-bindings")
+}
+
+/**
+ * - Focus on the datatip once the text is selected (cursor gets disabled temporarily)
+ * - Remove focus once mouse leaves
+ */
+export function overlayFocusFix(editor: TextEditor, element: HTMLElement) {
+  const editorComponent = atom.views.getView(editor).getComponent()
+  element.addEventListener("mousedown", () => {
+    blurEditor(editorComponent)
+    element.addEventListener("mouseleave", () => {
+      focusEditor(editorComponent)
+    })
+  })
+}
+
+export function focusEditor(editorComponent: TextEditorComponent) {
+  // @ts-ignore internal api
+  editorComponent?.didFocus()
+}
+
+export function blurEditor(editorComponent: TextEditorComponent) {
+  // @ts-ignore internal api
+  editorComponent?.didBlurHiddenInput({
+    relatedTarget: null,
+  })
+}
+
+/*
+██████  ███████ ██████  ██████  ███████  ██████  █████  ████████ ███████ ██████
+██   ██ ██      ██   ██ ██   ██ ██      ██      ██   ██    ██    ██      ██   ██
+██   ██ █████   ██████  ██████  █████   ██      ███████    ██    █████   ██   ██
+██   ██ ██      ██      ██   ██ ██      ██      ██   ██    ██    ██      ██   ██
+██████  ███████ ██      ██   ██ ███████  ██████ ██   ██    ██    ███████ ██████
+*/
+
+/**
+ * @deprecated Use `makeOverlaySelectable` instead.
+ *
+ *   Makes the overlay component copyable
+ *
+ *   - You should call `makeOverlaySelectable` before this
+ *   - If your element already has mouseenter and mouseleav listeners, directly use `copyListener`
+ */
+export function makeOverLayCopyable(element: HTMLElement) {
+  element.addEventListener("mouseenter", () => {
+    element.addEventListener("keydown", copyListener)
+  })
+
+  element.addEventListener("mouseleave", () => {
+    element.removeEventListener("keydown", copyListener)
+  })
+}
+
+/**
+ * @deprecated Use `makeOverlaySelectable` instead.
+ *
+ *   A manual copy listener Usage. Add the listener to your mouse enter and mouseleave listeners
+ *
+ *   ```ts
+ *   element.addEventListener("mouseenter", () => {element.addEventListener("keydown", copyListener)}`
+ *   element.addEventListener("mouseleave", () => {element.removeEventListener("keydown", copyListener)}`
+ * ```
+ */
+export async function copyListener(event: KeyboardEvent) {
+  event.preventDefault()
+  if (event.ctrlKey && event.key === "c") {
+    const text = document.getSelection()?.toString() ?? ""
+    await navigator.clipboard.writeText(text)
+  }
+} // TODO we should not need to manually listen for copy paste

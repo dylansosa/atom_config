@@ -1,0 +1,121 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .syntax--marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .syntax--marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
+  background-color: #616161;
+}
+
+.syntax--comment {
+  color: #bcaaa4;
+}
+
+.syntax--string {
+  color: #b2dfdb;
+}
+
+.syntax--constant.syntax--numeric {
+  color: #bbdefb;
+}
+
+.syntax--constant.syntax--language {
+  color: #bbdefb;
+}
+
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
+  color: #bbdefb;
+}
+
+.syntax--keyword {
+  color: #a5d6a7;
+}
+
+.syntax--storage {
+  color: #a5d6a7;
+}
+
+.syntax--storage.syntax--type {
+  color: #b0bec5;
+}
+
+.syntax--entity.syntax--name.syntax--class {
+  color: #fff9c4;
+}
+
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #ffe0b2;
+}
+
+.syntax--entity.syntax--name.syntax--function {
+  color: #fff9c4;
+}
+
+.syntax--variable.syntax--parameter {
+  color: #ffcc80;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  color: #a5d6a7;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #fff9c4;
+}
+
+.syntax--support.syntax--function {
+  color: #b0bec5;
+}
+
+.syntax--support.syntax--constant {
+  color: #b0bec5;
+}
+
+.syntax--support.syntax--type, .syntax--support.syntax--class {
+  color: #b0bec5;
+}
